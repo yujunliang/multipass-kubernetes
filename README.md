@@ -8,26 +8,26 @@ These are the links to install and create kubernetes cluster,
 Step 1. Create two Ubuntu VMs
 
 ```
-$ cd multipass
-$ ./launch-2vm.sh
+cd multipass
+./launch-2vm.sh
 ```
 
 Step 2. From second terminal window
 
 ```
-$ cd multipass
-$ ./ssh-to-cks-master.sh
+cd multipass
+./ssh-to-cks-master.sh
 ```
 
 when in cks-master,execute the following commands
 
 ```
-$ sudo -i
-# git clone https://github.com/yujunliang/multipass-kubernetes.git
-# cd multipass-kubernetes/cks-master
-# ./containerd.sh
-# ./docker.sh
-# ./install.sh
+sudo -i
+git clone https://github.com/yujunliang/multipass-kubernetes.git
+cd multipass-kubernetes/cks-master
+./containerd.sh
+./docker.sh
+./install.sh
 ```
 copy the output like this,
 
@@ -38,25 +38,25 @@ kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-t
 Step 3.From third terminal window
 
 ```
-$ cd multipass
-$ ./ssh-to-cks-worker.sh
+cd multipass
+./ssh-to-cks-worker.sh
 ```
 
 when in cks-worker,execute the following commands
 
 ```
-$ sudo -i
-# git clone https://github.com/yujunliang/multipass-kubernetes.git
-# cd multipass-kubernetes/cks-worker
-# ./containerd.sh
-# ./docker.sh
-# ./install.sh
+sudo -i
+git clone https://github.com/yujunliang/multipass-kubernetes.git
+cd multipass-kubernetes/cks-worker
+./containerd.sh
+./docker.sh
+./install.sh
 ```
 
 then run what you copied from Step 2, something like this,
 
 ```
-$ kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-token-ca-cert-hash sha256:f4ff0c7684bbac599a8208b94bb28e451023662ab51bc1ce16f60a855a85e2a5
+kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-token-ca-cert-hash sha256:f4ff0c7684bbac599a8208b94bb28e451023662ab51bc1ce16f60a855a85e2a5
 ```
 
 Step 4. On second window, cks-master

@@ -1,10 +1,11 @@
 These are the links to instaall and create kubernetes cluster,
 
-[Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
-[Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
-[Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
+0. [multipass](https://multipass.run/)
+1. [Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+2. [Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
+3. [Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-Step 1. Create two Ubuntu VMs usung [multipass](https://multipass.run/)
+Step 1. Create two Ubuntu VMs
 
 ```
 $ cd multipass

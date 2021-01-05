@@ -1,4 +1,4 @@
-These are the links to instaall and create kubernetes cluster,
+These are the links to install and create kubernetes cluster,
 
 0. [multipass](https://multipass.run/)
 1. [Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)

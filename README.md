@@ -1,4 +1,4 @@
-Step 1. Create two Ubuntu VMs
+Step 1. Create two Ubuntu VMs usung [multipass](https://multipass.run/)
 
 ```
 $ cd multipass
@@ -12,7 +12,7 @@ $ cd multipass
 $ ./ssh-to-cks-master.sh
 ```
 
-when in cks-master,
+when in cks-master,execute the following commands
 
 ```
 $ sudo -i
@@ -35,7 +35,7 @@ $ cd multipass
 $ ./ssh-to-cks-worker.sh
 ```
 
-when in cks-worker,
+when in cks-worker,execute the following commands
 
 ```
 $ sudo -i

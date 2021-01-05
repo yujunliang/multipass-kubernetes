@@ -68,4 +68,19 @@ NAME    READY   STATUS    RESTARTS   AGE
 nginx   1/1     Running   0          19s
 ```
 
+
+Terminal window layout,
+
+```
++------------------+-----------------------+
+| macOS            | cks-master            |
+|                  +-----------------------+
+|                  | cks-worker            |
++------------------+-----------------------+
+
+
+Screenshot,
+
+```
+
 ![Screenshot](./images/screenshot.png)

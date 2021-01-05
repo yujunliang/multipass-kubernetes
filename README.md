@@ -77,10 +77,9 @@ Terminal window layout,
 |                  +-----------------------+
 |                  | cks-worker            |
 +------------------+-----------------------+
-
+```
 
 Screenshot,
 
-```
 
 ![Screenshot](./images/screenshot.png)

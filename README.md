@@ -47,7 +47,7 @@ when in cks-worker,execute the following commands
 ```
 $ sudo -i
 # git clone https://github.com/yujunliang/multipass-kubernetes.git
-# cd multipass-kubernetes/cks-master
+# cd multipass-kubernetes/cks-worker
 # ./containerd.sh
 # ./docker.sh
 # ./install.sh

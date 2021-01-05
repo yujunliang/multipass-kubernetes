@@ -69,7 +69,7 @@ nginx   1/1     Running   0          19s
 ```
 
 
-Terminal window layout,
+Terminal [iTerm2](https://iterm2.com/) window layout,
 
 ```
 +------------------+-----------------------+

@@ -5,21 +5,38 @@ These are the links to install and create kubernetes cluster,
 2. [Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 3. [Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-Step 1. Create two Ubuntu VMs
+
+Terminal [iTerm2](https://iterm2.com/) pane layout,
 
 ```
-cd multipass
++------------------+-----------------------+
+| macOS            | cks-master            |
+|                  +-----------------------+
+|                  | cks-worker            |
++------------------+-----------------------+
+```
+
+Screenshot,
+
+
+![Screenshot](./images/screenshot.png)
+
+Step 1. Create two Ubuntu VMs on macOs pane,
+
+```
+git clone https://github.com/yujunliang/multipass-kubernetes.git
+cd multipass-kubernetes/multipass
 ./launch-2vm.sh
 ```
 
-Step 2. From second terminal window
+Step 2. On cks-master pane,
 
 ```
 cd multipass
 ./ssh-to-cks-master.sh
 ```
 
-when in cks-master,execute the following commands
+when in cks-master VM, execute the following commands
 
 ```
 sudo -i
@@ -35,7 +52,7 @@ copy the output like this,
 kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-token-ca-cert-hash sha256:f4ff0c7684bbac599a8208b94bb28e451023662ab51bc1ce16f60a855a85e2a5
 ```
 
-Step 3.From third terminal window
+Step 3.On cks-worker pane,
 
 ```
 cd multipass
@@ -75,18 +92,3 @@ NAME    READY   STATUS    RESTARTS   AGE
 nginx   1/1     Running   0          19s
 ```
 
-
-Terminal [iTerm2](https://iterm2.com/) window layout,
-
-```
-+------------------+-----------------------+
-| macOS            | cks-master            |
-|                  +-----------------------+
-|                  | cks-worker            |
-+------------------+-----------------------+
-```
-
-Screenshot,
-
-
-![Screenshot](./images/screenshot.png)

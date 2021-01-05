@@ -1,3 +1,9 @@
+These are the links to instaall and create kubernetes cluster,
+
+[Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+[Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
+[Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
+
 Step 1. Create two Ubuntu VMs usung [multipass](https://multipass.run/)
 
 ```
@@ -28,7 +34,7 @@ copy the output like this,
 kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-token-ca-cert-hash sha256:f4ff0c7684bbac599a8208b94bb28e451023662ab51bc1ce16f60a855a85e2a5
 ```
 
-Step 3. From third terminal window
+Step 3.From third terminal window
 
 ```
 $ cd multipass

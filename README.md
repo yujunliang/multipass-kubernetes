@@ -21,7 +21,7 @@ These are the links to install and create kubernetes cluster,
 2. [Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 3. [Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
-Step 1. Create two Ubuntu VMs on macOs pane,
+Step 1. Create two Ubuntu VMs on macOS pane,
 
 ```
 git clone https://github.com/yujunliang/multipass-kubernetes.git

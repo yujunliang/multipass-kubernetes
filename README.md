@@ -1,4 +1,4 @@
-# ![Kubernetes](./images/kubernetes.png) Cluster Made Easy Using Multipass ![m](./images/multipass.png)
+# ![Kubernetes](./images/kubernetes.png) Cluster Made Easy!
 
 You can use Multipass to create two Ubuntu VMs and then set up a Kubernetes Cluster on these two VMs. It only takes less than 7 minutes.
 

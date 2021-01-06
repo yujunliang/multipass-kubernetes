@@ -1,6 +1,3 @@
-![Multiplass](https://assets.ubuntu.com/v1/c87ec87a-Multipass-header-option_crop.png){:height="50%" width="50%"} ![kubernetes](https://kubernetes.io/images/favicon.png)
-
-
 These are the links to install and create kubernetes cluster,
 
 0. [multipass](https://multipass.run/)

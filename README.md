@@ -1,6 +1,6 @@
 # Kubernetes Cluster Made Easy
 
-You can use Multipass to create two Ubuntu VM and then set up a Kubernetes Clouster on these two VMs. It only takes less than 7 minutes.
+You can use Multipass to create two Ubuntu VMs and then set up a Kubernetes Clouster on these two VMs. It only takes less than 7 minutes.
 
 
 Terminal [iTerm2](https://iterm2.com/) pane layout,

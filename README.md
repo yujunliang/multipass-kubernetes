@@ -1,4 +1,4 @@
-![Multiplass](https://assets.ubuntu.com/v1/c87ec87a-Multipass-header-option_crop.png)
+![Multiplass](https://assets.ubuntu.com/v1/c87ec87a-Multipass-header-option_crop.png) ![kubernetes](https://kubernetes.io/images/favicon.png)
 
 
 These are the links to install and create kubernetes cluster,

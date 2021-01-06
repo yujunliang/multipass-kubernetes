@@ -13,11 +13,15 @@ Terminal [iTerm2](https://iterm2.com/) pane layout,
 +------------------+-----------------------+
 ```
 
-Screenshot,
+## Screenshot
+
+If you substract the time, it only takes 7 minutes and 4 seconds.
 
 
 ![Screenshot](./images/screenshot.png)
 
+
+## Installation steps
 
 These are the links to install and create kubernetes cluster,
 

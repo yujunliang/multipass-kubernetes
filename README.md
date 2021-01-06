@@ -51,9 +51,7 @@ when in cks-master VM, execute the following commands
 sudo -i
 git clone https://github.com/yujunliang/multipass-kubernetes.git
 cd multipass-kubernetes/cks-master
-./containerd.sh
-./docker.sh
-./install.sh
+./install-all.sh
 ```
 copy the output like this,
 
@@ -74,9 +72,7 @@ when in cks-worker,execute the following commands
 sudo -i
 git clone https://github.com/yujunliang/multipass-kubernetes.git
 cd multipass-kubernetes/cks-worker
-./containerd.sh
-./docker.sh
-./install.sh
+./install-all.sh
 ```
 
 then run what you copied from Step 2, something like this,

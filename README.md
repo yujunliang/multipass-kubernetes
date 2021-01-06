@@ -57,7 +57,7 @@ copy the output like this,
 kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-token-ca-cert-hash sha256:f4ff0c7684bbac599a8208b94bb28e451023662ab51bc1ce16f60a855a85e2a5
 ```
 
-Step 3.On cks-worker pane,
+Step 3. On cks-worker pane,
 
 ```
 cd multipass

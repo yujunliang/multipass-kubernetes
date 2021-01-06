@@ -13,7 +13,7 @@ Terminal [iTerm2](https://iterm2.com/) pane layout,
 +------------------+-----------------------+
 ```
 
-##Screenshot
+## Screenshot
 
 If you substract the time, it only takes 7 minutes and 4 seconds.
 

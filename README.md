@@ -6,11 +6,17 @@ You can use Multipass to create two Ubuntu VMs and then set up a Kubernetes clus
 Terminal [iTerm2](https://iterm2.com/) pane layout,
 
 ```
-+------------------+-----------------------+
-| macOS            | cks-master            |
-|                  +-----------------------+
-|                  | cks-worker            |
-+------------------+-----------------------+
++-----------------------+-----------------------+
+| macOS                 | cks-master            |
+|=======================|=======================|
+| $ pwd                 | $ pwd                 |
+| /Users/yujunliang     | /Users/yujunliang     |
+|                       +-----------------------+
+|                       | cks-worker            |
+|                       |=======================|
+|                       | $ pwd                 |
+|                       | /Users/yujunliang     |
++-----------------------+-----------------------+
 ```
 
 ## Screenshot

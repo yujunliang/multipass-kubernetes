@@ -3,7 +3,7 @@
 You can use [Multipass](https://multipass.run/) to create two Ubuntu VMs and then set up a Kubernetes cluster on these two VMs. It only takes less than 6 minutes.
 
 
-Terminal [iTerm2](https://iterm2.com/) pane layout,
+Terminal [iTerm2](https://iterm2.com/) pane layout, make sure they all are on the same directory.
 
 ```
 +-----------------------+-----------------------+

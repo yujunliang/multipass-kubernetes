@@ -41,7 +41,7 @@ cd multipass-kubernetes/multipass
 ### Step 2. On cks-master pane,
 
 ```
-cd multipass
+cd multipass-kubernetes/multipass
 ./ssh-to-cks-master.sh
 ```
 
@@ -62,7 +62,7 @@ kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-t
 ### Step 3. On cks-worker pane,
 
 ```
-cd multipass
+cd multipass-kubernetes/multipass
 ./ssh-to-cks-worker.sh
 ```
 

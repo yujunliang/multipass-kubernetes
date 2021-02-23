@@ -31,10 +31,10 @@ If you substract the time, it only takes 5 minutes and 26 seconds.
 
 These are the links to install and create kubernetes cluster,
 
-0. Download [multipass](https://multipass.run/) manually.
+0. [Download multipass](https://multipass.run/) manually.
 1. [Install Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 2. [Install kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
-3. [Creatie a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
+3. [Create a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)
 
 ### Step 1. Create two Ubuntu VMs on macOS pane,
 

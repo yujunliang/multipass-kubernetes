@@ -6,17 +6,23 @@ You can use [Multipass](https://multipass.run/) to create two Ubuntu VMs and the
 Terminal [iTerm2](https://iterm2.com/) pane layout, make sure they all are on the same directory.
 
 ```
-+-----------------------+-----------------------+
-| macOS                 | cks-master            |
-|=======================|=======================|
-| $ pwd                 | $ pwd                 |
-| /Users/yujunliang     | /Users/yujunliang     |
-|                       +-----------------------+
-|                       | cks-worker            |
-|                       |=======================|
-|                       | $ pwd                 |
-|                       | /Users/yujunliang     |
-+-----------------------+-----------------------+
++-----------------------+------------------------------------+
+| o o o                                                      |
++-----------------------+------------------------------------+
+| macOS                 | cks-master                         |
+|=======================|====================================|
+| $ pwd                 | $ pwd                              |
+| /Users/yujunliang     | /Users/yujunliang                  |
+| $ # Run Step 1 here.  | $ #Run Step 2 here.                |
+|                       | $ #Run Step 3 on cks-worker pane.  | 
+|                       |                                    |
+|                       +------------------------------------+
+|                       | cks-worker                         |
+|                       |====================================|
+|                       | $ pwd                              |
+|                       | /Users/yujunliang                  |
+|                       | $ #Run Step 3 here.                |
++-----------------------+------------------------------------+
 ```
 
 ## Screenshot

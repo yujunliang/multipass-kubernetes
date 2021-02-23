@@ -46,10 +46,14 @@ cd multipass-kubernetes/multipass
 
 ### Step 2. On cks-master pane,
 
+#### 2.1 SSH to Ubuntu VM cks-master 
+
 ```
 cd multipass-kubernetes/multipass
 ./ssh-to-cks-master.sh
 ```
+
+#### 2.2 Install master packages
 
 when in cks-master VM, execute the following commands
 
@@ -59,7 +63,10 @@ git clone https://github.com/yujunliang/multipass-kubernetes.git
 cd multipass-kubernetes/cks-master
 ./install-all.sh
 ```
-copy the output like this,
+
+#### 2.3 Copy join command
+
+copy the output like this, and prepare to run it in Step 3.3
 
 ```
 kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-token-ca-cert-hash sha256:f4ff0c7684bbac599a8208b94bb28e451023662ab51bc1ce16f60a855a85e2a5
@@ -67,11 +74,13 @@ kubeadm join 192.168.64.3:6443 --token al0kvi.x60mi1xj4zesqnq3     --discovery-t
 
 ### Step 3. On cks-worker pane,
 
+#### 3.1 SSH to Ubuntu VM cks-worker
 ```
 cd multipass-kubernetes/multipass
 ./ssh-to-cks-worker.sh
 ```
 
+#### 3.2 Install worker packages
 when in cks-worker,execute the following commands
 
 ```
@@ -80,6 +89,8 @@ git clone https://github.com/yujunliang/multipass-kubernetes.git
 cd multipass-kubernetes/cks-worker
 ./install-all.sh
 ```
+
+#### 3.3 Join cks-master as cks-worker
 
 then run what you copied from Step 2, something like this,
 

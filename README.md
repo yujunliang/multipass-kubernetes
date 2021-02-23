@@ -1,6 +1,6 @@
 # ![Kubernetes](./images/kubernetes.png) Cluster Made Easy!
 
-You can use Multipass to create two Ubuntu VMs and then set up a Kubernetes cluster on these two VMs. It only takes less than 6 minutes.
+You can use [Multipass](https://multipass.run/) to create two Ubuntu VMs and then set up a Kubernetes cluster on these two VMs. It only takes less than 6 minutes.
 
 
 Terminal [iTerm2](https://iterm2.com/) pane layout,
@@ -31,7 +31,7 @@ If you substract the time, it only takes 5 minutes and 26 seconds.
 
 These are the links to install and create kubernetes cluster,
 
-0. [multipass](https://multipass.run/)
+0. Download [multipass](https://multipass.run/) manually.
 1. [Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 2. [Installing kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 3. [Creating a cluster with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)

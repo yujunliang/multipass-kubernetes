@@ -120,5 +120,13 @@ NAME    READY   STATUS    RESTARTS   AGE
 nginx   1/1     Running   0          19s
 ```
 
+### Step 5. Delete two Ubuntu VMs on macOS pane,
+
+After you complete practice, you can delete the VMs.
+
+```
+cd multipass-kubernetes/multipass
+./destroy.sh
+```
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/yujunliang/)

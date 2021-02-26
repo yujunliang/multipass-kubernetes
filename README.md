@@ -125,6 +125,8 @@ nginx   1/1     Running   0          19s
 After you complete practice, you can delete the VMs.
 
 ```
+cd 
+cd multipass-kubernetes/multipass
 ./destroy.sh
 ```
 

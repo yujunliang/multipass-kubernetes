@@ -122,11 +122,9 @@ nginx   1/1     Running   0          19s
 
 ### Step 5. Delete two Ubuntu VMs on macOS pane,
 
-After you complete practice, you can delete the VMs.
+After you complete practice, you can delete the VMs. Assume you are still on the same directory as Step 1.
 
 ```
-cd 
-cd multipass-kubernetes/multipass
 ./destroy.sh
 ```
 
